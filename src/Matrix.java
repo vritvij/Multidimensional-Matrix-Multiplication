@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Matrix {
 
     Object a;
+    private static Scanner get = new Scanner(System.in);
     private final int[] dim;
 
     private static Object createMultiDimArray(int[] dimensionLengths) throws MalformedMatrixException {
@@ -21,7 +22,6 @@ public class Matrix {
                 dimension[i] = createMultiDimArray(dimensionLengths, depth + 1);
             }
         } else {
-            Scanner get = new Scanner(System.in);
             for (int i = 0; i < dimensionLengths[depth]; i++) {
                 dimension[i] = get.nextInt();
                 //dimension[i] = (int)(Math.random()*10);
