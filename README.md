@@ -36,8 +36,8 @@ for multiplying two 3d matrices we can use
 Note: we cannot multiply along the same dimension i.e (1 1) (2 2) and (3 3)
 
 ##Output format:
-The output format may be a bit difficult to understand at first but it is the best I could do to represent an multidimensional result
-consider the following example:
+The output format may be a bit difficult to understand at first but it is the best I could do to represent an multidimensional result.
+Consider the following examples:
 ```
 Example 1:
 
@@ -95,7 +95,3 @@ Dimension of Resultant Matrix C: 4 3 4
 Elements of C:
 [[[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]]]
 ```
-
-
-
-
