@@ -35,5 +35,67 @@ for multiplying two 3d matrices we can use
 
 Note: we cannot multiply along the same dimension i.e (1 1) (2 2) and (3 3)
 
+##Output format:
+The output format may be a bit difficult to understand at first but it is the best I could do to represent an multidimensional result
+consider the following example:
+```
+Example 1:
+
+Dimension of Matrix A : 2 2
+Elements of A:
+1 2 
+3 4
+
+Dimension of Matrix B : 2 2
+Elements of B:
+1 2
+3 4
+
+Multiplying along: 1 2 {first dimension of Matrix A and second dimension of Matrix B}
+
+Dimension of Resultant Matrix C: 2 2
+Elements of C:
+7 10        [0,0] [0,1]
+15 22       [1,0] [1,1]
+
+The elements above are outputted in the program as follows:
+[[7, 10], [15, 22]]
+
+i.e. the brackets correspond to separate dimensions from innermost to outermost
+```
+```
+Example 2:
+Dimension of Matrix A: 2 3 4
+Elements of A:
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+
+Dimensions of Matrix B: 4 3 2
+Elements of B:
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+5 6
+
+Multiplying along: 1 3 {first dimension of Matrix A and third dimension of Matrix B}
+
+Dimension of Resultant Matrix C: 4 3 4
+Elements of C:
+[[[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]], [[11, 22, 33, 44], [11, 22, 33, 44], [11, 22, 33, 44]]]
+```
+
+
 
 
